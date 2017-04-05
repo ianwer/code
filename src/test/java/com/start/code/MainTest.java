@@ -10,7 +10,7 @@ import junit.framework.TestSuite;
 public class MainTest extends TestCase
 {
     /**
-     * Rigourous Test :-)
+     * Rigorous Test :-)
      */
     public void testApp()
     {

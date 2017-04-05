@@ -11,17 +11,8 @@ public class BubbleSort {
                                  temp = arr[j-1];  
                                  arr[j-1] = arr[j];  
                                  arr[j] = temp;  
-                         }  
-                          
+                         }     
                  }  
          }  
-  
     } 
-	
-	static void print(int[] arr){
-		for(int i=0; i < arr.length; i++){  
-            System.out.print(arr[i] + " ");
-        }
-	}
-    
 }
