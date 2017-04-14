@@ -27,4 +27,12 @@ public class TestBubbleSort extends TestCase {
         BubbleSort.SortMyArray(arr);//Sorting
         assertTrue(arr.length==0);
     }
+	
+	public void testDuplicateValues() { 
+        int arr[] ={1,2,3,3,4,5};
+        BubbleSort.SortMyArray(arr);//Sorting
+        for(int i = 0; i < arr.length-1; i++){
+        	assertTrue(arr[i] <= arr[i+1]);
+        }
+    }
 }
