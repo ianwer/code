@@ -35,4 +35,20 @@ public class TestBubbleSort extends TestCase {
         	assertTrue(arr[i] <= arr[i+1]);
         }
     }
+	
+	public void testRandomValues() { 
+        int arr[] ={0,55,3,0,516,-2,66,1,};
+        BubbleSort.SortMyArray(arr);//Sorting
+        for(int i = 0; i < arr.length-1; i++){
+        	assertTrue(arr[i] <= arr[i+1]);
+        }
+    }
+	
+	public void testOutOFOrderValues() { 
+        int arr[] ={92,56,9,0,7,10,1};
+        BubbleSort.SortMyArray(arr);//Sorting
+        for(int i = 0; i < arr.length-1; i++){
+        	assertTrue(arr[i] <= arr[i+1]);
+        }
+    }
 }
